@@ -7,6 +7,31 @@
     <title>Budget Tracker</title>
 </head>
 <body>
+
+<main>
+    <h1>Budget Tracker</h1>
+
+    <section class="budget">
+        <div class="budget-income">
+            <input type="text" class="description" placeholder="description">
+            <input type="number" class="amount" placeholder="amount">
+            <button class="income-btn">Add Income</button>
+        </div>
+
+        <div class="budget-expense">
+            <input type="text" class="description" placeholder="description">
+            <input type="number" class="amount" placeholder="amount">
+            <button class="expense-btn">Add Income</button>
+        </div>
+
+        <div class="budget__summary">
+            <div class="income-value">Income: <span>0</span></div>
+            <div class="expenses-value">Expenses: <span>0</span></div>
+            <div class="budget-total">Total: <span>0</span></div>
+        </div>
+
+    </section>
+</main>
     
 
     <script src="script.js"></script>
